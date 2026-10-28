@@ -1,6 +1,6 @@
 module github.com/superfly/flyctl
 
-go 1.21.7
+go 1.25.0
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -77,15 +77,15 @@ require (
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.27.0
 	go.opentelemetry.io/otel/sdk v1.27.0
 	go.opentelemetry.io/otel/trace v1.27.0
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.52.0
 	golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f
-	golang.org/x/mod v0.18.0
-	golang.org/x/net v0.26.0
-	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.21.0
-	golang.org/x/term v0.21.0
-	golang.org/x/text v0.16.0
-	golang.org/x/time v0.5.0
+	golang.org/x/mod v0.35.0
+	golang.org/x/net v0.55.0
+	golang.org/x/sync v0.20.0
+	golang.org/x/sys v0.45.0
+	golang.org/x/term v0.43.0
+	golang.org/x/text v0.37.0
+	golang.org/x/time v0.12.0
 	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
 	google.golang.org/grpc v1.64.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -107,7 +107,7 @@ require (
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
-	github.com/Microsoft/hcsshim v0.11.4 // indirect
+	github.com/Microsoft/hcsshim v0.11.7 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
@@ -138,16 +138,19 @@ require (
 	github.com/chrismellard/docker-credential-acr-env v0.0.0-20230304212654-82a0ddb27589 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/containerd/console v1.0.4 // indirect
-	github.com/containerd/containerd v1.7.13 // indirect
-	github.com/containerd/continuity v0.4.3 // indirect
+	github.com/containerd/containerd v1.7.36 // indirect
+	github.com/containerd/containerd/api v1.8.0 // indirect
+	github.com/containerd/continuity v0.4.4 // indirect
+	github.com/containerd/errdefs v0.3.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
+	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.15.1 // indirect
-	github.com/containerd/ttrpc v1.2.2 // indirect
+	github.com/containerd/ttrpc v1.2.7 // indirect
 	github.com/containerd/typeurl/v2 v2.1.1 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
+	github.com/cyphar/filepath-securejoin v0.5.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
-	github.com/distribution/reference v0.5.0 // indirect
+	github.com/distribution/reference v0.6.0 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
 	github.com/docker/cli v25.0.3+incompatible // indirect
 	github.com/docker/distribution v2.8.3+incompatible // indirect
@@ -199,13 +202,14 @@ require (
 	github.com/moby/locker v1.0.1 // indirect
 	github.com/moby/sys/sequential v0.5.0 // indirect
 	github.com/moby/sys/signal v0.7.0 // indirect
-	github.com/moby/sys/user v0.1.0 // indirect
+	github.com/moby/sys/user v0.3.0 // indirect
+	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/moby/term v0.5.0 // indirect
 	github.com/nats-io/nkeys v0.4.7 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc5 // indirect
-	github.com/opencontainers/selinux v1.11.0 // indirect
+	github.com/opencontainers/image-spec v1.1.0 // indirect
+	github.com/opencontainers/selinux v1.13.1 // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.17 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
@@ -242,12 +246,13 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/telemetry v0.0.0-20260409153401-be6f6cb8b1fa // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	google.golang.org/genproto v0.0.0-20240227224415-6ceb2ff114de // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240520151616-dc85e6b867a5 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240515191416-fc5f0ca64291 // indirect
-	google.golang.org/protobuf v1.34.1 // indirect
+	google.golang.org/protobuf v1.35.2 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gvisor.dev/gvisor v0.0.0-20230927004350-cbd86285d259 // indirect
